@@ -1,4 +1,4 @@
-# run: HARD DEBUG Monte Carlo v4.0 — 2026-03-06T19:00
+# run: CRMArena Dataset Lookup v5.0 — 2026-03-07T07:00
 # DeoGaze / Entropic CRMArena Assessment
 # Green Agent: Entropic CRMArena (by rkstu) — needs OPENAI_API_KEY for GPT-4o evaluation
 # Purple Agent: IronShell (by ironshell-ui)
@@ -14,7 +14,7 @@ env = { LOG_LEVEL = "INFO", DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_K
 
 [config]
 task_limit = 20
-run_id = 6
+run_id = 7
 drift_level = "none"
 rot_level = "none"
 org_type = "b2b"
