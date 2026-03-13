@@ -1,16 +1,15 @@
+# CRMArena Agent submission — RobertFrenken
+# Green Agent: Entropic CRMArena (by rkstu) — needs OPENAI_API_KEY for GPT-4o evaluation
+# Purple Agent: CRMArena Agent (by RobertFrenken)
+
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019ba211-13b7-7e83-9086-c8015a5e4957"
+env = { LOG_LEVEL = "INFO", OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019ce489-a5c2-7c21-a29f-e56ec1b1e470"
+name = "agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", STRATEGY_JSON = "${STRATEGY_JSON}" }
 
 [config]
-# Add your assessment config here
+task_limit = 20
